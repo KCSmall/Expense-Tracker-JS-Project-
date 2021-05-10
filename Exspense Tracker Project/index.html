@@ -2,31 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href='css\stylesheet.css' 
-    <!--title-->
-    <center><h1>Expense Tracker</h1></center>
-    <center><h3>Add A New Item</h3></center> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href='css\stylesheet.css' <!--title-->
+  <center>
+    <h1>Expense Tracker</h1>
+  </center>
 </head>
 
 <body>
 
-    <center class="container" center </center>
-    Place: <input id="inputField" type="text"  placeholder="Where was the expense made?" style="border:1px solid ;width: 180px;; border-radius:20px";>
-    <div id="place"></div>
-    <section class="container">
-    Date: <input id="inputField" type="text"  placeholder="mm/dd/yyyy" style="border:1px solid ;width: 90px; border-radius:20px";> 
-    <div  id="Date"></div>
-    <section class="container">
-     Amount: <input id="inputField" type="text" id="amount" style="border:1px ;solid solid ;width: 90px; border-radius:20px"
-    <br>
-    <button onclick="fn1()" id="btn1" id="addToDo">+</button>
-    <div></div>
+  <center>
+    <section id="myDIV" class="header"
+      style="border:5px solid #a5c0e8; text-align:center; width:60%;border-radius:20px;">
+      <h2>My To Do List</h2>
+      Place: <input type="text" id=place placeholder="place"><button id="add">+</button>
+      Date: <input type="date" id=date placeholder="date"><button id="add">+</button>
+      Amount: <input type="text" id=amount placeholder="amount"><button id="add">+</button>
+    
+  </center>
 
 
-<script src="js\Expense Tracker.js"></script>
+
+
+  <script src="js\Expense Tracker.js"></script>
 
 </body>
 

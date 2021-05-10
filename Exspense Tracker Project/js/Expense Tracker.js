@@ -1,17 +1,17 @@
-//*calling Javascript id names . The interperter always looks for functions first before global scopes
-var place =window.prompt;
-var date =window.prompt;
-var amount =window.prompt ;
+var place = document.getElementById('place');  //calling Javascript id names
+var date = document.getElementById('date'); //calling Javascript id names
+var amount = document.getElementById('amount'); //calling Javascript id names
 
-function fn1(){
+// In the event you click the + button write whatever is in the place input field into the current page 
+// In the event you click the + button write whatever is in the date input field into the current page 
+// In the event you click the + button write whatever is in the amount input field into the current page 
 
-}
-document.write(place)
-//* that same function can be written similarly to this function to add the amount
-//* the end result of this Javascript page should end up looking like a repeated script
+
+
+
+
+
 
 
     
 
-
-    
